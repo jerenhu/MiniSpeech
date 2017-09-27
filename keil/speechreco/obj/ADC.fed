@@ -1,0 +1,158 @@
+;#<FEEDBACK># ARM Linker, 5050041: Last Updated: Sun Apr 02 20:58:57 2017
+;VERSION 0.2
+;FILE adc.o
+ADC_Close <= USED 0
+ADC_DisableInt <= USED 0
+ADC_DisableMICBias <= USED 0
+ADC_EnableInt <= USED 0
+ADC_EnableMICBias <= USED 0
+ADC_GetPGAGaindB <= USED 0
+ADC_GetSampleRate <= USED 0
+ADC_Open <= USED 0
+ADC_SetALCMaxGaindB <= USED 0
+ADC_SetALCMinGaindB <= USED 0
+ADC_SetALCTargetLevel <= USED 0
+ADC_SetAMUX <= USED 0
+ADC_SetGPIOChannel <= USED 0
+ADC_SetPGAGaindB <= USED 0
+__asm___5_adc_c_ADC_Open____REV16 <= USED 0
+__asm___5_adc_c_ADC_Open____REVSH <= USED 0
+;FILE capsense.o
+CapSense_GetCounter <= USED 0
+CapSense_ResetCounter <= USED 0
+CapSense_SelectCurrentSourceValue <= USED 0
+CapSense_SetCycleCounts <= USED 0
+__asm___10_capsense_c_72dbb377____REV16 <= USED 0
+__asm___10_capsense_c_72dbb377____REVSH <= USED 0
+;FILE clk.o
+CLK_DeepPowerDown <= USED 0
+CLK_DeepSleep <= USED 0
+CLK_DisableLDO <= USED 0
+CLK_DisableModuleClock <= USED 0
+CLK_DisableXtalRC <= USED 0
+CLK_GetHIRCFreq <= USED 0
+CLK_GetLXTFreq <= USED 0
+CLK_SetSysTickClockSrc <= USED 0
+CLK_Sleep <= USED 0
+CLK_StandbyPowerDown <= USED 0
+CLK_SysTickDelay <= USED 0
+__asm___5_clk_c_5b0c67f2____REV16 <= USED 0
+__asm___5_clk_c_5b0c67f2____REVSH <= USED 0
+;FILE fmc.o
+FMC_Close <= USED 0
+FMC_DisableConfigUpdate <= USED 0
+FMC_DisableLDUpdate <= USED 0
+FMC_EnableConfigUpdate <= USED 0
+FMC_EnableLDUpdate <= USED 0
+FMC_Erase <= USED 0
+FMC_GetBootSource <= USED 0
+FMC_Open <= USED 0
+FMC_Read <= USED 0
+FMC_ReadCID <= USED 0
+FMC_ReadConfig <= USED 0
+FMC_ReadDID <= USED 0
+FMC_ReadDataFlashBaseAddr <= USED 0
+FMC_SetBootSource <= USED 0
+FMC_Write <= USED 0
+FMC_WriteConfig <= USED 0
+__asm___5_fmc_c_15679c7a____REV16 <= USED 0
+__asm___5_fmc_c_15679c7a____REVSH <= USED 0
+;FILE gpio.o
+GPIO_DisableInt <= USED 0
+GPIO_EnableInt <= USED 0
+__asm___6_gpio_c_f8f858a7____REV16 <= USED 0
+__asm___6_gpio_c_f8f858a7____REVSH <= USED 0
+;FILE keypad.o
+Keypad_GetTouchEnablePin <= USED 0
+Keypad_InitKey <= USED 0
+Keypad_InitKeyMatrixPort <= USED 0
+Keypad_InitTouch <= USED 0
+Keypad_KeyDecDebounceCounter <= USED 0
+Keypad_KeyMapHandler <= USED 0
+Keypad_KeyTouchPressCounter <= USED 0
+Keypad_ResetKey <= USED 0
+Keypad_ResetTgr <= USED 0
+Keypad_ScanKey <= USED 0
+Keypad_ScanKeyPort <= USED 0
+Keypad_ScanTgr <= USED 0
+Keypad_ScanTgrPort <= USED 0
+Keypad_ScanTouch <= USED 0
+Keypad_TgrDecDebounceCounter <= USED 0
+Keypad_TgrMapHandler <= USED 0
+Keypad_TouchCalibration <= USED 0
+Keypad_TouchCapSense <= USED 0
+Keypad_TouchCaptureState <= USED 0
+Keypad_TouchMapHandler <= USED 0
+Keypad_TouchStartIRQ <= USED 0
+__asm___8_Keypad_c_8a32908d____REV16 <= USED 0
+__asm___8_Keypad_c_8a32908d____REVSH <= USED 0
+;FILE main.o
+ADC_Init <= USED 0
+ADC_MIC_Record <= USED 0
+PDMA_Init <= USED 0
+__asm___6_main_c_ddbff97a____REV16 <= USED 0
+__asm___6_main_c_ddbff97a____REVSH <= USED 0
+;FILE pdma.o
+PDMA_Close <= USED 0
+PDMA_DisableInt <= USED 0
+PDMA_EnableInt <= USED 0
+PDMA_Open <= USED 0
+PDMA_SetTransferAddr <= USED 0
+PDMA_SetTransferCnt <= USED 0
+PDMA_SetTransferDirection <= USED 0
+PDMA_SetTransferMode <= USED 0
+PDMA_Trigger <= USED 0
+__ARM_common_switch8 <= USED 0
+__asm___6_pdma_c_4711ff23____REV16 <= USED 0
+__asm___6_pdma_c_4711ff23____REVSH <= USED 0
+;FILE retarget.o
+GetChar <= USED 0
+Hard_Fault_Handler <= USED 0
+IsDebugFifoEmpty <= USED 0
+__asm___10_retarget_c_d5a1b03f____REV16 <= USED 0
+__asm___10_retarget_c_d5a1b03f____REVSH <= USED 0
+_sys_exit <= USED 0
+_ttywrch <= USED 0
+ferror <= USED 0
+fgetc <= USED 0
+kbhit <= USED 0
+;FILE spi.o
+SPI_Close <= USED 0
+SPI_GetBusClock <= USED 0
+SPI_GetVarClock <= USED 0
+SPI_Open <= USED 0
+SPI_SetBusClock <= USED 0
+SPI_SetVarClock <= USED 0
+__asm___5_spi_c_SPI_Open____REV16 <= USED 0
+__asm___5_spi_c_SPI_Open____REVSH <= USED 0
+;FILE startup_n575_keil.o
+;FILE sys.o
+SYS_ClearResetSrc <= USED 0
+SYS_GetResetSrc <= USED 0
+SYS_IsRegLocked <= USED 0
+SYS_ReadPDID <= USED 0
+SYS_ResetCPU <= USED 0
+SYS_ResetChip <= USED 0
+__asm___5_sys_c_962b9fbe____REV16 <= USED 0
+__asm___5_sys_c_962b9fbe____REVSH <= USED 0
+;FILE system_n575.o
+SystemInit <= USED 0
+__asm___13_system_N575_c_5d646a67____REV16 <= USED 0
+__asm___13_system_N575_c_5d646a67____REVSH <= USED 0
+;FILE timer.o
+TIMER_Close <= USED 0
+TIMER_Delay <= USED 0
+__asm___7_timer_c_5bec749a____REV16 <= USED 0
+__asm___7_timer_c_5bec749a____REVSH <= USED 0
+;FILE uart.o
+UART_ClearIntFlag <= USED 0
+UART_Close <= USED 0
+UART_DisableFlowCtrl <= USED 0
+UART_EnableFlowCtrl <= USED 0
+UART_Read <= USED 0
+UART_SelectIrDAMode <= USED 0
+UART_SetLine_Config <= USED 0
+UART_SetTimeoutCnt <= USED 0
+UART_Write <= USED 0
+__asm___6_uart_c_f12f5b44____REV16 <= USED 0
+__asm___6_uart_c_f12f5b44____REVSH <= USED 0

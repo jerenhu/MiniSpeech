@@ -1,0 +1,576 @@
+Dependencies for Project 'speechreco', Target 'speechreco': (DO NOT MODIFY !)
+F (.\startup_N575_Keil.s)(0x564ED63C)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include--list .\lst\startup_n575_keil.lst --xref -o .\obj\startup_n575_keil.o --depend .\obj\startup_n575_keil.d)
+F (..\Library\Device\Nuvoton\N575\Source\system_N575.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\system_n575.o --omf_browse .\obj\system_n575.crf --depend .\obj\system_n575.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\main.c)(0x58E63744)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\recordctrl.h)(0x58EF5F39)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\Platform.h)(0x5631AEEC)
+F (..\Library\StdDriver\src\uart.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\sys.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\spi.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\spi.o --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\retarget.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\pdma.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\pdma.o --omf_browse .\obj\pdma.crf --depend .\obj\pdma.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\fmc.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\fmc.o --omf_browse .\obj\fmc.crf --depend .\obj\fmc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\clk.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\gpio.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\adc.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\IO\src\Keypad.c)(0x58EB35F5)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\keypad.o --omf_browse .\obj\keypad.crf --depend .\obj\keypad.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\Platform.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+F (..\Library\StdDriver\src\timer.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\Library\StdDriver\src\capsense.c)(0x5631AEEC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\capsense.o --omf_browse .\obj\capsense.crf --depend .\obj\capsense.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\recordctrl.h)(0x58EF5F39)()
+F (..\recordctrl.c)(0x58EF6158)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\recordctrl.o --omf_browse .\obj\recordctrl.crf --depend .\obj\recordctrl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\recordctrl.h)(0x58EF5F39)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\Platform.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\vadctrl.h)(0x58EF4AB0)
+I (..\flash.h)(0x58EBA24B)
+F (..\vadctrl.c)(0x58EF59CB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\vadctrl.o --omf_browse .\obj\vadctrl.crf --depend .\obj\vadctrl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\Platform.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\recordctrl.h)(0x58EF5F39)
+I (..\vadctrl.h)(0x58EF4AB0)
+I (..\flash.h)(0x58EBA24B)
+F (..\vadctrl.h)(0x58EF4AB0)()
+F (..\flash.c)(0x58EBA42D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\flash.o --omf_browse .\obj\flash.crf --depend .\obj\flash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\flash.h)(0x58EBA24B)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\Platform.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\N575.h)(0x58E2718C)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\IO\inc\Keypad.h)(0x5631AEEC)
+I (C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include\NVTTypes.h)(0x5631AEEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\flash.h)(0x58EBA24B)()

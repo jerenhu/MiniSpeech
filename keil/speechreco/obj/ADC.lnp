@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\obj\startup_n575_keil.o"
+".\obj\system_n575.o"
+".\obj\main.o"
+".\obj\uart.o"
+".\obj\sys.o"
+".\obj\spi.o"
+".\obj\retarget.o"
+".\obj\pdma.o"
+".\obj\fmc.o"
+".\obj\clk.o"
+".\obj\gpio.o"
+".\obj\adc.o"
+".\obj\keypad.o"
+".\obj\timer.o"
+".\obj\capsense.o"
+".\obj\recordctrl.o"
+".\obj\vadctrl.o"
+".\obj\flash.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_n575_keil.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\ADC.map" -o .\obj\ADC.axf

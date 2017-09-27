@@ -1,0 +1,183 @@
+Dependencies for Project 'ADC', Target 'ADC': (DO NOT MODIFY !)
+F (.\startup_N575_Keil.s)(0x564ED63C)(--cpu Cortex-M0 -g --16 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include--list .\lst\startup_n575_keil.lst --xref -o .\obj\startup_n575_keil.o --depend .\obj\startup_n575_keil.d)
+F (..\Library\Device\Nuvoton\N575\Source\system_N575.c)(0x5631AEEC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\system_n575.o --omf_browse .\obj\system_n575.crf --depend .\obj\system_n575.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include\N575.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+F (..\main.c)(0x58B43C09)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include\N575.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include\core_cm0.h)(0x5630625E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include\core_cmInstr.h)(0x56306260)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include\core_cmFunc.h)(0x56306260)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\acmp.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\adc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\biq.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\bod.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\capsense.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\clk.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\crc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\dpwm.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\fmc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\gpio.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\i2c.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\i2s.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\osc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\pdma.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\pwm.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\rtc.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\spi.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\sys.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\talarm.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\timer.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\uart.h)(0x5631AEEC)
+I (C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc\wdt.h)(0x5631AEEC)
+F (..\..\..\..\Library\StdDriver\src\ADC.c)(0x00000000)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+F (..\..\..\..\Library\StdDriver\src\DPWM.c)(0x00000000)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\dpwm.o --omf_browse .\obj\dpwm.crf --depend .\obj\dpwm.d)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\N575.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x00000000)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x00000000)
+F (..\..\..\..\Library\StdDriver\src\BIQ.c)(0x00000000)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\biq.o --omf_browse .\obj\biq.crf --depend .\obj\biq.d)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\N575.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x00000000)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x00000000)
+F (..\..\..\..\Library\StdDriver\src\GPIO.c)(0x00000000)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\N575.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x00000000)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x00000000)
+F (..\..\..\..\Library\StdDriver\src\UART.c)(0x00000000)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\N575.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x00000000)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x00000000)
+I (..\..\..\..\Library\Device\Nuvoton\N575\Include\system_N575.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x00000000)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x00000000)
+F (..\Library\StdDriver\src\retarget.c)(0x5631AEEC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+F (..\Library\StdDriver\src\sys.c)(0x5631AEEC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+F (..\Library\StdDriver\src\clk.c)(0x5631AEEC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Source' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Device\Nuvoton\N575\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\CMSIS\Include' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Framework\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\StdDriver\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\Storage\inc' -I'C:\Nuvoton N575 SDS\V5.03.001\Library\IO\inc'-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-DDEBUG_ENABLE_SEMIHOST-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)

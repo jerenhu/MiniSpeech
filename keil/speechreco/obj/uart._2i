@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Source' -I'C:\Users\yanhui\myData\speech\Library\Device\Nuvoton\N575\Include' -I'C:\Users\yanhui\myData\speech\Library\CMSIS\Include' -I'C:\Users\yanhui\myData\speech\Library\Framework\inc' -I'C:\Users\yanhui\myData\speech\Library\StdDriver\inc' -I'C:\Users\yanhui\myData\speech\Library\Storage\inc' -I'C:\Users\yanhui\myData\speech\Library\IO\inc'
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-DDEBUG_ENABLE_SEMIHOST
+-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d --feedback ".\obj\ADC.fed" "..\Library\StdDriver\src\uart.c"
